@@ -6,6 +6,7 @@ TagManager:
   tags:
   - cabin
   - ground
+  - Event
   layers:
   - Default
   - TransparentFX
