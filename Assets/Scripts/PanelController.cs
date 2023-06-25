@@ -5,6 +5,7 @@ using TMPro;
 
 public class PanelController : MonoBehaviour
 {
+    
     public GameObject panelToShow; // Reference to the panel to show
     public GameObject panelToFadeOut; // Reference to the panel to fade out
     public float fadeOutDelay = 2f; // Delay before fading out the second panel
@@ -31,7 +32,7 @@ public class PanelController : MonoBehaviour
 
         Color startColor = panelImage.color;
         Color targetColor = new Color(startColor.r, startColor.g, startColor.b, 0f);
-
+        Color start1 = new Color(startColor.r, startColor.g, startColor.b, 1f);
         float elapsedTime = 0f;
 
         while (elapsedTime < fadeOutDuration)
@@ -44,6 +45,8 @@ public class PanelController : MonoBehaviour
         }
 
         panelToFadeOut.SetActive(false); // Set the panel to inactive (hidden)
+        panelText.color= Color.white;
+        panelImage.color = start1;
     }
 
 
