@@ -5,7 +5,7 @@ using TMPro;
 
 public class Typewriter : MonoBehaviour
 {
-    [SerializeField] private float speed = 70f;
+    [SerializeField] private float speed = 100f;
 
     public Coroutine Run(string textToType, TMP_Text textLabel){
         return StartCoroutine(TypeText(textToType, textLabel));

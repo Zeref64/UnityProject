@@ -3,8 +3,8 @@ using TMPro;
 
 public class DialogueUI : MonoBehaviour
 {
-    [SerializeField] private GameObject canvas;     //ανοιγει επομενο object
-    [SerializeField] private int openObject;        //σε περιπτωση =1
+    [SerializeField] private GameObject canvas;
+    [SerializeField] private int openObject;
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private TMP_Text textLabel;
     [TextArea(3, 10)] [SerializeField] private string dialogueText;
@@ -18,12 +18,20 @@ public class DialogueUI : MonoBehaviour
         StartDialogue();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            CloseDialogueBox();
+        }
+    }
+
     private void OpenDialogueBox()
     {
         dialogueBox.SetActive(true);
     }
 
-    private void CloseDialogueBox()
+    public void CloseDialogueBox()
     {
         dialogueBox.SetActive(false);
         textLabel.text = string.Empty;
@@ -39,7 +47,7 @@ public class DialogueUI : MonoBehaviour
 
     private System.Collections.IEnumerator CompleteDialogue()
     {
-        yield return new WaitForSeconds(16f);
+        yield return new WaitForSeconds(10f);
         CloseDialogueBox();
     }
 }
