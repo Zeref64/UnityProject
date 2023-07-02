@@ -27,4 +27,3 @@ public class ButtonCanvasController : MonoBehaviour
         canvas.gameObject.SetActive(false); // Close the canvas
     }
 }
-

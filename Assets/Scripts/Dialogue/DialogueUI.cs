@@ -39,7 +39,7 @@ public class DialogueUI : MonoBehaviour
 
     private System.Collections.IEnumerator CompleteDialogue()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(16f);
         CloseDialogueBox();
     }
 }

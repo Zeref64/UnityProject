@@ -5,14 +5,14 @@ using TMPro;
 
 public class Typewriter : MonoBehaviour
 {
-    [SerializeField] private float speed = 50f;
+    [SerializeField] private float speed = 70f;
 
     public Coroutine Run(string textToType, TMP_Text textLabel){
         return StartCoroutine(TypeText(textToType, textLabel));
     }
 
     private IEnumerator TypeText(string textToType, TMP_Text textLabel){
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         float t=0;
         int charIndex = 0;
 
