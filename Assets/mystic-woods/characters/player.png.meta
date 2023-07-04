@@ -20,12 +20,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -64,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -77,7 +75,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,7 +87,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -103,7 +99,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1191,59 +1186,60 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      player_0: -192837335
-      player_1: 1175102107
-      player_10: 1511200706
-      player_11: -1425371271
-      player_12: 1294379870
-      player_13: 1706367610
-      player_14: -1340355659
-      player_15: -1610105690
-      player_16: 1714747995
-      player_17: 1604517002
-      player_18: -133112182
-      player_19: 1807277711
-      player_2: -1152341045
-      player_20: -1006169806
-      player_21: 411076083
-      player_22: 925000965
-      player_23: -1439976228
-      player_24: 418618264
-      player_25: -1595904417
-      player_26: -1499490984
-      player_27: -139388447
-      player_28: -1101120034
-      player_29: 987980832
-      player_3: 1763230878
-      player_30: -1148893033
-      player_31: -1761761616
-      player_32: -786146143
-      player_33: -131444934
-      player_34: -861584424
-      player_35: -1944127133
-      player_36: 146268267
-      player_37: 938565834
-      player_38: 793831251
-      player_39: -147009460
-      player_4: -1142684140
-      player_40: 1841338835
-      player_41: -43774519
-      player_42: -1768657818
-      player_43: 27312972
-      player_44: 1566705478
-      player_45: -1323822140
-      player_46: -294100591
-      player_47: 1096159944
-      player_48: 190974596
-      player_49: -1573477305
-      player_5: -1169992506
       player_50: -1564590598
+      player_15: -1610105690
+      player_12: 1294379870
+      player_19: 1807277711
+      player_26: -1499490984
+      player_41: -43774519
+      player_25: -1595904417
+      player_37: 938565834
+      player_23: -1439976228
+      player_31: -1761761616
+      player_0: -192837335
+      player_24: 418618264
+      player_36: 146268267
+      player_40: 1841338835
+      player_3: 1763230878
       player_6: -682766093
-      player_7: 1634517333
+      player_2: -1152341045
+      player_29: 987980832
+      player_47: 1096159944
+      player_34: -861584424
+      player_17: 1604517002
+      player_13: 1706367610
+      player_44: 1566705478
+      player_28: -1101120034
+      player_11: -1425371271
+      player_27: -139388447
+      player_1: 1175102107
+      player_16: 1714747995
+      player_14: -1340355659
       player_8: 1325178437
+      player_21: 411076083
+      player_35: -1944127133
+      player_4: -1142684140
+      player_46: -294100591
+      player_5: -1169992506
+      player_38: 793831251
+      player_33: -131444934
+      player_45: -1323822140
       player_9: 177862235
-  mipmapLimitGroupName: 
+      player_30: -1148893033
+      player_39: -147009460
+      player_18: -133112182
+      player_48: 190974596
+      player_10: 1511200706
+      player_22: 925000965
+      player_49: -1573477305
+      player_20: -1006169806
+      player_43: 27312972
+      player_32: -786146143
+      player_42: -1768657818
+      player_7: 1634517333
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

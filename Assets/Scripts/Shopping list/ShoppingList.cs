@@ -28,7 +28,5 @@ public class ShoppingList : MonoBehaviour
     {
         return shoppingItems;
     }
-
-
 }
 
