@@ -1,6 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class PhoneController : MonoBehaviour
+public class PhonePanelController : MonoBehaviour
 {
     public GameObject[] panels; // Array of panels to manage
 
@@ -24,4 +26,3 @@ public class PhoneController : MonoBehaviour
         }
     }
 }
-
