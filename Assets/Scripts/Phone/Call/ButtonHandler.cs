@@ -4,7 +4,18 @@ using TMPro;
 public class ButtonHandler : MonoBehaviour
 {
     public TextMeshProUGUI displayText;
+    public AudioSource audioSource;
+    public AudioClip buttonClickSound;
     private const int MaxCharacters = 15;
+
+    private void Start()
+    {
+        if (audioSource == null)
+        {
+            // If AudioSource is not assigned, try to get it from the same GameObject
+            audioSource = GetComponent<AudioSource>();
+        }
+    }
 
     public void UpdateDisplay(string value)
     {
@@ -18,6 +29,12 @@ public class ButtonHandler : MonoBehaviour
             {
                 displayText.text = displayText.text.Substring(0, MaxCharacters);
             }
+
+            // Play button click sound
+            if (audioSource != null && buttonClickSound != null)
+            {
+                audioSource.PlayOneShot(buttonClickSound);
+            }
         }
     }
 
@@ -27,6 +44,12 @@ public class ButtonHandler : MonoBehaviour
         {
             // Remove the last character from the TextMeshPro text
             displayText.text = displayText.text.Substring(0, displayText.text.Length - 1);
+
+            // Play button click sound
+            if (audioSource != null && buttonClickSound != null)
+            {
+                audioSource.PlayOneShot(buttonClickSound);
+            }
         }
     }
 }
