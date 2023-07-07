@@ -11,7 +11,7 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     public AudioClip[] musicClips;
-    private AudioSource source;
+    public AudioSource source;
     private int currentTrack;
 
     public Text clipTitleText;
@@ -26,8 +26,6 @@ public class AudioManager : MonoBehaviour
     void Start() {
         source = GetComponent<AudioSource>();
 
-        // Play music
-        PlayMusic();
     }
 
     IEnumerator WaitForMusicEnd() {
