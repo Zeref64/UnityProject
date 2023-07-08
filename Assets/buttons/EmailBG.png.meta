@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ea1c7809d5e1eac4b8432575a5c02ebb
+guid: 5727133144fd1654c9bd050e55b0c371
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: minimalist-copy-space-clipboard-top-view-removebg-preview_0
+      name: EmailBG_0
       rect:
         serializedVersion: 2
-        x: 193
-        y: 38
-        width: 239
-        height: 335
+        x: 155
+        y: 110
+        width: 970
+        height: 612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d000e614a5d420d4ab1364a1f61c9dc3
-      internalID: 1990261990
+      spriteID: 5f3d316b594dd0947b68a5a81ba9838f
+      internalID: -1560418954
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      minimalist-copy-space-clipboard-top-view-removebg-preview_0: 1990261990
+      EmailBG_0: -1560418954
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

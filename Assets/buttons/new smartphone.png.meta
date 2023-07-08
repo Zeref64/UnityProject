@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ea1c7809d5e1eac4b8432575a5c02ebb
+guid: 9eabe17142be0a04680bc7fa9dd2b905
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: minimalist-copy-space-clipboard-top-view-removebg-preview_0
+      name: new smartphone_0
       rect:
         serializedVersion: 2
-        x: 193
-        y: 38
-        width: 239
-        height: 335
+        x: 232
+        y: 76
+        width: 132
+        height: 281
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d000e614a5d420d4ab1364a1f61c9dc3
-      internalID: 1990261990
+      spriteID: 89a806a906cb3c347b281e24f57c9ea1
+      internalID: -5207844
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      minimalist-copy-space-clipboard-top-view-removebg-preview_0: 1990261990
+      new smartphone_0: -5207844
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

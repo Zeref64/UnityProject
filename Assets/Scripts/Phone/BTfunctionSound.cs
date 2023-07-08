@@ -7,8 +7,9 @@ public class BTfunctionSound : MonoBehaviour
 {
     public Button callButton;
     public AudioClip audioClip;
-    public GameObject panelToClose;
-    public AudioSource soundSource; // Add this line
+    public GameObject panelToClose1;
+    public GameObject panelToClose2;
+    public AudioSource soundSource;
 
     private bool panelActive = false;
 
@@ -37,7 +38,9 @@ public class BTfunctionSound : MonoBehaviour
 
         yield return new WaitForSeconds(audioClip.length);
 
-        panelToClose.SetActive(false);
+        panelToClose1.SetActive(false);
+        panelToClose2.SetActive(false);
         panelActive = false;
     }
 }
+
