@@ -10,9 +10,16 @@ public class PanelController : MonoBehaviour
     public GameObject panelToFadeOut; // Reference to the panel to fade out
     public float fadeOutDelay = 2f; // Delay before fading out the second panel
     public float fadeOutDuration = 1f; // Duration of the fade out animation
+    private GameObject activePanel;
 
     public void ShowPanel()
     {
+         // Close the active panel if one is already open
+            if (activePanel != null)
+            {
+                activePanel.SetActive(false);
+            }
+
         panelToShow.SetActive(true); // Set the panel to active (visible)
     }
 
