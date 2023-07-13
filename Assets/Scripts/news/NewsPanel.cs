@@ -43,7 +43,6 @@ public class NewsPanel : MonoBehaviour
         }
 
         string jsonResponse = request.downloadHandler.text;
-        Debug.Log(jsonResponse);
         newsData = JsonUtility.FromJson<NewsData>(jsonResponse);
 
         if (newsData != null && newsData.articles.Length > 0)
