@@ -1,4 +1,4 @@
-Unity project for a university assignment 
+## Unity project for a university assignment - Human & Computer Interaction - Virtual Personal Assistant
 
 - Anagnostopoulos Sotirios
 - Kapo Redion
